@@ -15,4 +15,5 @@ Motion::Project::App.setup do |app|
   app.icons << 'icon.png'
   app.codesign_certificate = 'iPhone Developer: Joan Soskin (USK5D244GU)'
   app.provisioning_profile = '/Users/joansoskin/Documents/flashstarts/development/provisioning_profiles/rubymotion.mobileprovision'
+  app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
 end

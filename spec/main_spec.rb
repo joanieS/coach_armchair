@@ -1,4 +1,4 @@
-describe "Application 'Magic8Ball'" do
+describe "Application 'CoachArmchair'" do
   before do
     @app = UIApplication.sharedApplication
   end
